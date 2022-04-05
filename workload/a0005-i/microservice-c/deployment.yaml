@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: microservice-c-sa
+  namespace: a0005-i
   labels:
     app.kubernetes.io/name: a0005
     app.kubernetes.io/component: microservice-c
