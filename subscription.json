@@ -63,7 +63,7 @@
 
         "policySetDefinitionName-EnableDefender": "[guid(subscription().id, 'EnableDefender')]",
         "roleId-SecurityAdmin": "/providers/Microsoft.Authorization/roleDefinitions/fb1c8493-542b-48eb-b624-b4c8fea62acd",
-        "deploymentResourceRegion": "centralus" // This region is used as the default for all generic resource groups and for any additional deployment resources. No resources are actually deployed to this resource group.
+        "deploymentResourceRegion": "northeurope" // This region is used as the default for all generic resource groups and for any additional deployment resources. No resources are actually deployed to this resource group.
     },
     "resources": [
         {
